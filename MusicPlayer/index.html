@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simple Music Player</title>
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="mplayer">
+           <div class="info">
+            <div class="now-playing">PLAYING x OF y</div>
+            <div class="track-art"></div>
+            <div class="track-name">Track Name</div>
+            <div class="track-artist">Track Artist</div>
+           </div>     
+          
+          <div class="buttons">
+            <div class="prevtrack" onclick="prevTrack()">
+              <i class="fa fa-step-backward fa-2x"></i>
+            </div>
+            <div class="playpausetrack" onclick="playpauseTrack()">
+              <i class="fa fa-play-circle fa-5x"></i>
+            </div>
+            <div class="nexttrack" onclick="nextTrack()">
+              <i class="fa fa-step-forward fa-2x"></i>
+            </div>
+          </div>
+
+    </div>
+    <script src="script.js"></script>
+      
+
+</body>
+</html>
